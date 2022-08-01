@@ -4,67 +4,89 @@ body {
     padding: 20px;
     background-color: #a9bde7;
     font: "IBM Plex Sans", sans-serif;
-  }
-  
-  section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #d5e1eb;
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 70px;
-    color:#123b94
-  }
-  
-  h3 {
-    text-align: center;
-    font-style: italic;
-    font-size: 40px;
-  }
-  
-  div {
-    padding: 20px;
-    margin: 20px;
-    background-color: #607482;
-    color: white;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  h2 {
-    font-size: 34px;
-    text-align: left;
-    font-style: italic;
-  }
-  
-  h4 {
-    font-size: 30px;
-  }
-  
-  p {
-    margin-top: 30px;
-  }
-  
-  h5 {
-    font-size: 30px;
-    text-align: right;
-  }
-  
-  img {
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
-  }
-  
+}
 
-  
-  footer {
+section {
+padding: 20px;
+margin: 20px;
+background-color: #d5e1eb;
+}
+
+h1 {
+text-align: center;
+font-size: 70px;
+color:#123b94
+}
+
+h3 {
+text-align: center;
+font-style: italic;
+font-size: 40px;
+}
+
+div {
+padding: 20px;
+margin: 20px;
+background-color: #607482;
+color: white;
+display: flex;
+flex-direction: column;
+}
+
+h2 {
+font-size: 34px;
+text-align: left;
+font-style: italic;
+}
+
+h4 {
+font-size: 30px;
+text-align: right;
+
+}
+
+p {
+margin-top: 30px;
+}
+
+h5 {
+font-size: 30px;
+text-align: right;
+flex-direction: column;
+}
+
+img {
+width: 100%;
+max-width: 600px;
+margin: auto;
+width: 800px; 
+height: 500px;
+}
+
+a {
+padding: 20px;
+margin: 20px;
+background-color: #607482;
+color: white;
+display: flex;
+font-size: 40px;
+flex-direction: column;
+text-align: center;
+
+}
+
+footer {
     padding: 30px;
     padding-top: 20px;
     margin-bottom: -20px;
     margin-left: -40px;
     margin-right: -40px;
     background-color: #7cbdeb;
-  }
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
