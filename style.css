@@ -113,7 +113,6 @@ ul {
   
 li {
     list-style-type: none;
-    background-color: #ffffff;
     text-align: center;
 
   }
@@ -139,7 +138,7 @@ li {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: rgb(88, 158, 163); /* Black*/
+    background-color: #a2b9bc; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -163,3 +162,11 @@ li {
     font-size: 36px;
     margin-left: 50px;
   }
+
+span{
+    position: fixed;
+    top:0; /* Stay at the top */
+    left:100px;
+    font-size: 24px;
+    color:rgb(0, 0, 0)
+}
