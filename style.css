@@ -124,9 +124,8 @@ li {
     color: #000000;
     font-family: 'Fredericka the Great', cursive;
 } */
-
-.bar:hover {
-    background-color: yellow;
+a:hover {
+    background-color: rgb(0, 200, 250);
   }
 
 
@@ -165,8 +164,9 @@ li {
 
 span{
     position: fixed;
-    top:0; /* Stay at the top */
-    left:100px;
-    font-size: 24px;
+    top:100px; /* Stay at the top */
+    left:70px;
+    font-size: 50px;
     color:rgb(0, 0, 0)
+    
 }
